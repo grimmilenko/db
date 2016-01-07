@@ -154,7 +154,7 @@ AND DOZENT.DOZENTID = DOZENT_FACH.DOZENTID AND STUDENT_FACH.FACHID = DOZENT_FACH
 AND DOZENT.VORNAME ='Nancy' AND DOZENT.NACHNAME = 'Lynch';
 
 /*Was wird hier gefragt: die Martikelnummer alle Studenten,
-die mehr als 1 Fach von Kategorie 00P besuchen, was von einem Dozenten gehalten werden*/
+die mehr als 1 Faecher von Kategorie 00P besuchen, was von einem Dozenten gehalten werden*/
 SELECT STUDENT_FACH.MARTIKELNUMMER, COUNT(*) AS "ANZAHL_FACH_VON_DER_OOP"
 FROM FACH, STUDENT_FACH
 WHERE STUDENT_FACH.FACHID = FACH.FACHID AND FACH.KATEGORIE ='00P'
