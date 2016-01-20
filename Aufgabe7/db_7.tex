@@ -1,0 +1,41 @@
+\documentclass{article}
+\usepackage{scrpage2}
+\pagestyle{scrheadings}
+\clearscrheadfoot
+
+\begin{document}
+
+\ihead{Marvin Petersen (2058712)\\♠Nico Grimm (2058712)}
+\chead{21.01.2016}
+\ohead{Datenbank - Praktikum}
+
+\begin{center}
+\section*{Aufgabenblatt 7}
+\end{center}
+
+\subsection*{Aufgabe 7.3}
+
+\subsubsection*{a) Beispiel in 1.NF aber nicht 2.NF}
+
+\begin{tabular}{|c|c|c|c|c|} \hline
+StudentID & Vorname & Nachname & VorlesungID & Professor \\ \hline \hline
+1 & Marvin & Petersen & 10 & Prof. Hollatz \\ \hline
+1 & Marvin & Petersen & 12 & Prof. Baran \\ \hline
+2 & Nico & Grimm & 10 & Prof. Hollatz \\ \hline
+2 & Nico & Grimm & 11 & Prof. Jenke \\ \hline
+2 & Nico & Grimm & 12 & Prof. Baran \\ \hline
+3 & Max & Mustermann & 11 & Prof. Jenke \\ \hline
+\end{tabular} \\[2ex]
+Vorname und Nachname sind funktional abh\"angig von StudentID
+
+\subsubsection*{b) Beispiel in 0.NF}
+
+\begin{tabular}{|c|c|c|c|c|} \hline
+StudentID & Vorname & Nachname & VorlesungID & Professor \\ \hline \hline
+1 & Marvin & Petersen & 10,12 & Prof. Hollatz, Prof. Baran \\ \hline
+2 & Nico & Grimm & 10,11,12 & Prof. Hollatz, Prof. Baran, Prof. Jenke \\ \hline
+3 & Max & Mustermann & 11 & Prof. Jenke \\ \hline
+\end{tabular} \\[2ex]
+Die Attribute VorlesungID und Professor haben mehrere Attributwert.
+
+\end{document}
