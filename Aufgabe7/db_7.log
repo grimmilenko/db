@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.12.11)  21 JAN 2016 07:00
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.12.11)  21 JAN 2016 09:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -25,8 +25,7 @@ File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrpage2.sty
 Package: scrpage2 2013/12/19 v3.12 KOMA-Script package (page head and foot)
-)
-No file db_7.aux.
+) (./db_7.aux)
 \openout1 = `db_7.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
@@ -65,8 +64,8 @@ Overfull \vbox (12.0pt too high) has occurred while \output is active []
 
 ] (./db_7.aux) ) 
 Here is how much of TeX's memory you used:
- 485 strings out of 494976
- 6080 string characters out of 6179136
+ 487 strings out of 494976
+ 6098 string characters out of 6179136
  60811 words of memory out of 5000000
  3789 multiletter control sequences out of 15000+600000
  5511 words of font info for 20 fonts, out of 8000000 for 9000
@@ -76,7 +75,7 @@ Here is how much of TeX's memory you used:
 mbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb>
-Output written on db_7.pdf (1 page, 54844 bytes).
+Output written on db_7.pdf (1 page, 54883 bytes).
 PDF statistics:
  24 PDF objects out of 1000 (max. 8388607)
  16 compressed objects within 1 object stream
